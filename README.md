@@ -1,2 +1,2 @@
-# BattleTank_Unreal_Engine
-Open world tank game in Unreal Engine 4 C++
+# BattleTank Unreal Engine 4
+An open world tank game in Unreal Engine 4 C++
