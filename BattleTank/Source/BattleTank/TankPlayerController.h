@@ -24,5 +24,7 @@ public:
 	 // Start moving the barrel to your target through the crosshair
 	 void AimTowardsCrosshair();
 	
+	 // Return an OUT parameter, true if hit landscape
+	 bool GetSightRayHitLocation(FVector& HitLocation) const;
 	
 };
