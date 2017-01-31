@@ -18,6 +18,11 @@ public:
 	ATank* GetControllerTank() const;
 
 	 virtual void BeginPlay() override;
+
+	 virtual void Tick(float DeltaTime) override;
+
+	 // Start moving the barrel to your target through the crosshair
+	 void AimTowardsCrosshair();
 	
 	
 };
