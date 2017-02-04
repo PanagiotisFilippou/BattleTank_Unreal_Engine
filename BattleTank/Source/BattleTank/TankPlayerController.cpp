@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "BattleTank.h"
+#include "Tank.h"
 #include "TankPlayerController.h"
 
 void ATankPlayerController::BeginPlay()
@@ -39,7 +40,6 @@ ATank* ATankPlayerController::GetControllerTank() const
 void ATankPlayerController::AimTowardsCrosshair()
 {
 	if (!GetControllerTank()) { return; }
-
 
 	FVector HitLocation; // Out parameter
 	if (GetSightRayHitLocation(HitLocation))

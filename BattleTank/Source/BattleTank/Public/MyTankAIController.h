@@ -12,8 +12,4 @@ UCLASS()
 class BATTLETANK_API AMyTankAIController : public AAIController
 {
 	GENERATED_BODY()
-	
-	
-	
-	
 };
